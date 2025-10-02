@@ -106,7 +106,7 @@ nav a:not(.btn):hover {
   flex-direction: column;
   justify-content: center;
   padding-left: 80px;
-  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('/trei.png');
+  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('./img/img1.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
