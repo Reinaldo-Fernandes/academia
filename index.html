@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Seu Nome - Instrutor de Academia & Personal Trainer</title>
+  <meta name="description" content="Treinador pessoal com planos de treino e nutrição personalizados. Transforme seu corpo com resultados reais." />
+  <meta property="og:title" content="Seu Nome - Instrutor de Academia">
+  <meta property="og:description" content="Seu parceiro na jornada fitness.">
+  <meta name="author" content="Seu Nome">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0d0d0d">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Rolagem suave para links internos */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="/personal.png" alt="Logo"> <span>SEU NOME</span>
+      </div>
+      <nav>
+        <a href="#sobre">SOBRE MIM</a>
+        <a href="#depoimentos">DEPOIMENTOS</a>
+        <a href="#galeria">GALERIA</a>
+        <a href="#contato" class="btn contact-btn">CONTATO</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero-image-overlay" data-animate>
+        <img src="/trei.png" alt="Logo" class="hero-logo"> 
+        <h1>INSTRUTOR DE ACADEMIA <br> & PERSONAL TRAINER</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <a href="#contato" class="btn hero-btn">COMECE AGORA</a>
+      </section>
+
+      <section class="moments-gallery" data-animate>
+        <h2 class="momentos">MOMENTOS</h2>
+        <div class="gallery-slider">
+          <div class="gallery-track">
+            <img src="/img1.png" alt="Momento 1">
+            <img src="/treino.png" alt="Momento 2">
+            <img src="/trei.png" alt="Momento 3">
+            <img src="/personal.png" alt="Momento 4">
+            <img src="/img1.png" alt="Momento 1 (Cópia)">
+            <img src="/treino.png" alt="Momento 2 (Cópia)">
+            <img src="/trei.png" alt="Momento 3 (Cópia)">
+            <img src="/personal.png" alt="Momento 4 (Cópia)">
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section about-section" data-animate>
+        <div class="about-flex-container">
+          <div class="about-text-block">
+            <h2>SOBRE MIM</h2>
+            <div class="about-content-grid">
+              <div class="about-description">
+                <img src="/personal.png" alt="Instrutor" class="about-photo-reference"> 
+                <p>Norem fho too zerice exprionss per cixcem eie rosmwh, fersog birouvr place the hotobiovrty exoloc tioxer, gorem rty bixcem eie rosmwh, oreotmuet Inxs loroumsng atrexs the ghtosouer eiosrotetd doem oinls congoliotn.</p>
+              </div>
+              <div class="book-consultation" data-animate>
+                <h3>AGENDE UMA CONSULTA GRATUITA</h3>
+                <p>Comece Sua Jornada Fitness</p>
+                <button class="btn">Comece Sua Jornada Fitness</button>
+                <div class="consultation-images">
+                  <img src="/cross.png" alt="Consulta 1">
+                  <img src="/avaliacao.png" alt="Consulta 2">
+                  <img src="/treino.png" alt="Consulta 3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom-section">
+        <div class="grid-bottom-content">
+          <div class="services-block" data-animate>
+            <h2>SERVIÇOS</h2>
+            <ul>
+              <li><i class="fas fa-dumbbell"></i> Treino Individual</li>
+              <li><i class="fas fa-users"></i> Aulas em Grupo</li>
+              <li><i class="fas fa-apple-alt"></i> Orientação Nutricional</li>
+              <li><i class="fas fa-laptop-code"></i> Consultoria Online</li>
+            </ul>
+          </div>
+
+          <div id="depoimentos" class="testimonials-block" data-animate>
+            <h2>DEPOIMENTOS</h2>
+            <div class="testimonial-item">
+              <p>"Excelente! Me ajudou a alcançar meus objetivos de forma rápida e segura. Recomendo!"</p>
+              <img src="/dp1.png" alt="Cliente Testimonial 1">
+            </div>
+            <div class="testimonial-item">
+              <p>"Profissional muito dedicado e competente. Os resultados são visíveis e a motivação é constante."</p>
+              <img src="/dp2.png" alt="Cliente Testimonial 2">
+            </div>
+          </div>
+
+          <div id="contato" class="contact-block" data-animate>
+            <h2>CONTATO</h2>
+            <form>
+              <input type="text" id="name" placeholder="Seu Nome">
+              <input type="text" id="email" placeholder="Seu E-mail">
+              <textarea id="message" placeholder="Sua mensagem"></textarea>
+              <button class="btn" onclick="sendContact(event)">Enviar</button>
+            </form>
+            <p>xx x xxxx - xxxx</p>
+            <p id="emailText">seunome@email.com</p>
+            <button class="btn" onclick="copyEmail()">Copiar E-mail</button>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="galeria" class="book-consultation-bottom" data-animate>
+            <h2>AGENDE UMA CONSULTA GRATUITA</h2>
+            <div class="consultation-gallery-bottom">
+                <img src="/cross..jpg" alt="Galeria Inferior 1">
+                <img src="/trei.png" alt="Galeria Inferior 2">
+                <img src="/treino.png" alt="Galeria Inferior 3">
+                <img src="/img1.png" alt="Galeria Inferior 4">
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
