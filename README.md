@@ -1,9 +1,12 @@
 Aqui está um modelo de arquivo README para a página, formatado para facilitar a compreensão e a manutenção do projeto. Ele explica as tecnologias usadas, a estrutura de pastas e como personalizar o conteúdo.
 
 -----
-https://github.com/Reinaldo-Fernandes/academia/blob/520f8736a352ba266639690c13ee6718d06809bc/img/academia.png
+
 
 # Projeto: Personal Trainer & Instrutor de Academia
+
+<img width="1080" height="1080" alt="academia" src="https://github.com/user-attachments/assets/2a3db918-2448-4673-ad6a-5a119ac0cabc" />
+
 
 Este projeto é um site de uma única página (single-page) para um instrutor de academia e personal trainer, desenvolvido com foco em performance e responsividade. O site apresenta seções para serviços, depoimentos, galeria de fotos e um formulário de contato.
 
