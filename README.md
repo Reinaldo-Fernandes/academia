@@ -1,6 +1,7 @@
 Aqui está um modelo de arquivo README para a página, formatado para facilitar a compreensão e a manutenção do projeto. Ele explica as tecnologias usadas, a estrutura de pastas e como personalizar o conteúdo.
 
 -----
+https://github.com/Reinaldo-Fernandes/academia/blob/520f8736a352ba266639690c13ee6718d06809bc/img/academia.png
 
 # Projeto: Personal Trainer & Instrutor de Academia
 
